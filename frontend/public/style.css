@@ -6,6 +6,7 @@ section {
 }
 
 .firstSection {
+  position: relative;
   background-color: #efd592;
 }
 
@@ -28,15 +29,35 @@ section {
 }
 
 .firstSection .secondButton {
+  position: absolute;
   width: 200px;
   height: 60px;
   right: 40px;
   bottom: 40px;
   border: 6px solid #242d38;
   font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-size: 21px;
+  letter-spacing: 0.2em;
+  color: #242d38;
+  font-weight: 700;
 }
 
 .secondSection {
+  position: relative;
   background-color: #4343f9;
+}
+
+.secondSection .thirdButton {
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  bottom: 40px;
+  background-color: #4343f9;
+  -webkit-box-shadow: 0 3px 20px;
+          box-shadow: 0 3px 20px;
+  font-weight: 400;
+  font-size: 21px;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
